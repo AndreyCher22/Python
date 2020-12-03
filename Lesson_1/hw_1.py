@@ -23,3 +23,4 @@ n = int(input("Введите любое число: "))
 total = (n + ((n * 2) + (n  * 3)))
 print("Сумма чисел n + nn + nnn - %d" % total)
 
+
