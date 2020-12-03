@@ -22,3 +22,4 @@ print(f"Время в формате чч:мм:сс {hours} : {minutes} : {secon
 n = int(input("Введите любое число: "))
 result = (n + int(str(n) + str(n) + str(n) + str(n) + str(n)))
 print("Сумма чисел n + nn + nnn - %d" % result)
+
