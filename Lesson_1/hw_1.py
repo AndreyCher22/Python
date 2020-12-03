@@ -20,6 +20,6 @@ print(f"Время в формате чч:мм:сс {hours} : {minutes} : {secon
 #Третье задание. Узнайте у пользователя число n. Найдите сумму чисел n + nn + nnn. Например, пользователь ввёл число 3. Считаем 3 + 33 + 333 = 369
 
 n = int(input("Введите любое число: "))
-result = (n + int(str(n) + str(n) + str(n) + str(n) + str(n)))
-print("Сумма чисел n + nn + nnn - %d" % result)
+total = (n + ((n * 2) + (n  * 3)))
+print("Сумма чисел n + nn + nnn - %d" % total)
 
